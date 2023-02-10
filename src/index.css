@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@keyframes fade {
+  from{opacity: 0.4;}
+  to {opacity: 1;}
+  
+}
+
+.ani-fade  {
+ 
+  animation-name: fade;
+  
+  animation-duration: 2s;
+  
+
+}
+@media only screen and (min-width : 768px){
+
+ .card-flex {
+
+  max-height: 45vh;
+
+}
+
+
+}
+
+
